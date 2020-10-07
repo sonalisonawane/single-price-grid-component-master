@@ -1,0 +1,104 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    body {
+        Font-size: 16px;
+        font-family: 'Karla', sans-serif;
+    }
+    
+    .grid-container {
+        margin: auto;
+        width: 900px;
+        height: 100vh;
+        background-color: #e5eff5;
+        align-items: center;
+        display: flex;
+    }
+    
+    .card {
+        display: grid;
+        align-items: center;
+        width: 60%;
+        margin: auto;
+        grid-template-rows: 45% 55%;
+        height: 70%;
+    }
+    
+    .first-div {
+        border-radius: 10px 10px 0 0;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        background-color: #fff;
+        padding: 30px;
+    }
+    
+    h2.heading {
+        color: hsl(179, 62%, 43%);
+    }
+    
+    h3.sub-heading-1 {
+        color: hsl(71, 73%, 54%);
+        padding-top: 10px;
+    }
+    
+    p.info {
+        color: hsl(204deg 12% 68%);
+    }
+    
+    .second-div {
+        height: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        color: white;
+    }
+    
+    .sub-info-1 {
+        background-color: hsl(179, 62%, 43%);
+        padding: 30px;
+        border-radius: 0px 0px 0px 10px;
+    }
+    
+    h3.sub-heading-2 {
+        font-weight: 700;
+        margin-bottom: 12px;
+    }
+    
+    span.price {
+        font-size: 2.5rem;
+    }
+    
+    span.month {
+        padding-left: 10px;
+        opacity: 0.5;
+    }
+    
+    button.btn {
+        margin-top: 25px;
+        width: 100%;
+        height: 20%;
+        background-color: hsl(71, 73%, 54%);
+        border: none;
+        color: white;
+        border-radius: 5px;
+        font-family: 'Karla', sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    
+    .sub-info-2 {
+        background-color: #4abebd;
+        padding: 30px;
+        border-radius: 0px 0px 10px 0px;
+    }
+    
+    h3.sub-heading-3 {
+        margin-bottom: 12px;
+    }
+    
+    p.info-2 {
+        opacity: 0.7;
+    }
